@@ -81,7 +81,7 @@ export function HeroSection() {
             <div className="w-full h-full rounded-full overflow-hidden bg-[var(--background)] flex items-center justify-center relative">
               {/* Replace the src with actual photo later */}
               <img
-                src="/public/aa.jpeg"
+                src="/aa.jpeg"
                 alt="Akash Deep Verma"
                 className="w-full h-full object-cover opacity-80 group-hover:scale-105 group-hover:opacity-100 transition-all duration-500"
               />
