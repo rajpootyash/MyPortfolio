@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { Mail, Phone, Send } from "lucide-react"
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa"
+import { FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa"
 import { Button } from "../components/ui/Button"
 import { Card, CardContent } from "../components/ui/Card"
 
@@ -32,43 +32,53 @@ export function ContactSection() {
             viewport={{ once: true }}
             className="space-y-8"
           >
-            <a href="mailto:contact@akashdeep.com" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="mailto:rajpootyash26@gmail.com" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
               <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)] group-hover:text-[var(--foreground)] group-hover:bg-[var(--border)] transition-colors shadow-sm">
                 <Mail size={20} />
               </div>
               <div>
                 <h4 className="text-[var(--muted)] text-xs uppercase tracking-wider font-medium">Email</h4>
-                <p className="text-sm font-medium text-[var(--foreground)]">contact@akashdeep.com</p>
+                <p className="text-sm font-medium text-[var(--foreground)]">rajpootyash26@gmail.com</p>
               </div>
             </a>
             
-            <a href="tel:+911234567890" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="tel:+919305061130" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
               <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)] group-hover:text-[var(--foreground)] group-hover:bg-[var(--border)] transition-colors shadow-sm">
                 <Phone size={20} />
               </div>
               <div>
                 <h4 className="text-[var(--muted)] text-xs uppercase tracking-wider font-medium">Phone</h4>
-                <p className="text-sm font-medium text-[var(--foreground)]">+91 (123) 456-7890</p>
+                <p className="text-sm font-medium text-[var(--foreground)]">+91 9305061130</p>
               </div>
             </a>
 
-            <a href="https://wa.me/911234567890" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="https://wa.me/919305061130" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
               <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)] group-hover:text-emerald-500 group-hover:bg-[var(--border)] transition-colors shadow-sm">
                 <FaWhatsapp size={20} />
               </div>
               <div>
                 <h4 className="text-[var(--muted)] text-xs uppercase tracking-wider font-medium">WhatsApp</h4>
-                <p className="text-sm font-medium text-[var(--foreground)]">+91 (123) 456-7890</p>
+                <p className="text-sm font-medium text-[var(--foreground)]">+91 9305061130</p>
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/akashdeep" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
+            <a href="https://www.linkedin.com/in/akash-rajpoot-9777231b7/" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
               <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)] group-hover:text-[#0077B5] group-hover:bg-[var(--border)] transition-colors shadow-sm">
                 <FaLinkedin size={20} />
               </div>
               <div>
                 <h4 className="text-[var(--muted)] text-xs uppercase tracking-wider font-medium">LinkedIn</h4>
-                <p className="text-sm font-medium text-[var(--foreground)]">linkedin.com/in/akashdeep</p>
+                <p className="text-sm font-medium text-[var(--foreground)]">akash-rajpoot-9777231b7</p>
+              </div>
+            </a>
+
+            <a href="https://github.com/rajpootyash" target="_blank" rel="noreferrer" className="flex items-center gap-4 group cursor-pointer hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 rounded-xl bg-[var(--background)] border border-[var(--border)] flex items-center justify-center text-[var(--muted)] group-hover:text-[var(--foreground)] group-hover:bg-[var(--border)] transition-colors shadow-sm">
+                <FaGithub size={20} />
+              </div>
+              <div>
+                <h4 className="text-[var(--muted)] text-xs uppercase tracking-wider font-medium">GitHub</h4>
+                <p className="text-sm font-medium text-[var(--foreground)]">rajpootyash</p>
               </div>
             </a>
           </motion.div>
@@ -88,7 +98,7 @@ export function ContactSection() {
                     const name = formData.get("name")?.toString() || "";
                     const message = formData.get("message")?.toString() || "";
                     const subject = `Portfolio Contact from ${name}`;
-                    window.location.href = `mailto:contact@akashdeep.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+                    window.location.href = `mailto:rajpootyash26@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
                   }}
                 >
                   <div className="space-y-2">

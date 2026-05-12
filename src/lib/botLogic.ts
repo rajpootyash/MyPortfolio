@@ -52,7 +52,7 @@ export async function generateBotResponse(query: string): Promise<string> {
 
   // Intent: Skills
   if (lowerQuery.match(/(skill|technology|tech|stack|use|know|language)/)) {
-    return "His core stack includes:\n• **Frontend**: React, TypeScript\n• **Backend**: ASP.NET Core, FastAPI\n• **Databases**: SQL Server, PostgreSQL\n• **Systems**: RabbitMQ, Hangfire, SignalR\n• **AI**: RAG, LangChain, ChromaDB, Knowledge Graphs.";
+    return "His core stack includes:\n• **Frontend**: React, JavaScript, TypeScript\n• **Backend**: ASP.NET Core, ASP.NET MVC, LINQ, FastAPI\n• **Databases**: MS SQL, PostgreSQL\n• **Systems**: RabbitMQ, Hangfire, SignalR\n• **AI**: RAG, LangChain, ChromaDB, Knowledge Graphs.";
   }
 
   // Intent: Performance
@@ -62,7 +62,7 @@ export async function generateBotResponse(query: string): Promise<string> {
 
   // Intent: Hiring / Availability
   if (lowerQuery.match(/(hire|hiring|available|freelance|full-time|contact|reach|email|phone)/)) {
-    return "Yes, Akash is currently open for new opportunities! You can reach him directly at:\n• **Email**: contact@akashdeep.com\n• **Phone**: +91 (123) 456-7890\n• **LinkedIn**: linkedin.com/in/akashdeep\n\nLet's build something powerful together.";
+    return "Yes, Akash is currently open for new opportunities! You can reach him directly at:\n• **Email**: rajpootyash26@gmail.com\n• **Phone**: +91 9305061130\n• **LinkedIn**: linkedin.com/in/akash-rajpoot-9777231b7\n• **GitHub**: github.com/rajpootyash\n\nLet's build something powerful together.";
   }
 
   // Intent: Journey

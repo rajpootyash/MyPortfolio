@@ -4,11 +4,11 @@ import { Badge } from "../components/ui/Badge"
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React 18", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand", "Redux", "Vite"]
+    skills: ["React 18", "JavaScript", "TypeScript", "Tailwind CSS", "Framer Motion", "Zustand", "Redux", "Vite"]
   },
   {
     title: "Backend",
-    skills: ["ASP.NET Core", "C#", "Node.js", "Express", "REST APIs", "Clean Architecture"]
+    skills: ["ASP.NET Core", "ASP.NET MVC", "C#", "LINQ", "REST APIs", "Clean Architecture"]
   },
   {
     title: "AI / ML",
@@ -16,7 +16,7 @@ const skillCategories = [
   },
   {
     title: "Systems & DB",
-    skills: ["PostgreSQL", "SQL Server", "RabbitMQ", "Hangfire", "SignalR", "WebSockets", "Redis"]
+    skills: ["PostgreSQL", "MS SQL", "RabbitMQ", "Hangfire", "SignalR", "WebSockets", "Redis"]
   }
 ]
 

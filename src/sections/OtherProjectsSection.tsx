@@ -6,7 +6,7 @@ const otherProjects = [
   {
     title: "Tech Podio",
     desc: "A centralized pod management tool for technical teams.",
-    tech: "React, Node.js",
+    tech: "React, ASP.NET Core",
     link: "#"
   },
   {

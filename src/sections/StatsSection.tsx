@@ -16,10 +16,10 @@ function AnimatedCounter({ value, duration = 2 }: { value: number, duration?: nu
   useEffect(() => {
     return spring.on("change", (latest) => {
       if (ref.current) {
-        ref.current.textContent = Math.floor(latest).toString()
+        ref.current.textContent = value % 1 !== 0 ? latest.toFixed(1) : Math.floor(latest).toString()
       }
     })
-  }, [spring])
+  }, [spring, value])
 
   return <span ref={ref}>0</span>
 }
@@ -51,7 +51,7 @@ const stats = [
   },
   {
     icon: <Database size={24} className="text-emerald-500" />,
-    value: 5,
+    value: 3.5,
     suffix: "+",
     label: "Years Distributed Exp.",
     bgGlow: "bg-emerald-500/10",
