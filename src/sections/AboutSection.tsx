@@ -10,13 +10,13 @@ const highlights = [
   },
   {
     icon: <Server className="w-6 h-6 text-blue-400" />,
-    title: "Clean Architecture",
+    title: "System Design",
     desc: "Controller → Service → Repository pattern for highly maintainable and scalable enterprise apps."
   },
   {
     icon: <Database className="w-6 h-6 text-emerald-400" />,
     title: "Distributed Systems",
-    desc: "Event-driven architectures using RabbitMQ, Hangfire, and PostgreSQL for real-time processing."
+    desc: "Event-driven engineering using RabbitMQ, Hangfire, and PostgreSQL for real-time processing."
   }
 ]
 
@@ -32,7 +32,7 @@ export function AboutSection() {
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 text-[#f2f2f2]">Engineering Philosophy</h2>
           <p className="text-[#8a8f98] max-w-2xl mx-auto text-lg font-light tracking-tight">
-            I don't just write code; I architect solutions that scale. With over 3.5 years of experience building products from zero to production, I focus on system reliability, clean code, and pushing the boundaries of AI SaaS.
+            I don't just write code; I engineer solutions that scale. With over 3.5 years of experience building products from zero to production, I focus on system reliability, clean code, and pushing the boundaries of AI SaaS.
           </p>
         </motion.div>
 

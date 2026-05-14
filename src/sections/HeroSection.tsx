@@ -21,11 +21,11 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[var(--border)] bg-[var(--card)] text-[var(--muted)] text-sm font-medium mb-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.02)]"
           >
             <Terminal size={14} className="text-[var(--foreground)]" />
-            <span>Akash Deep Verma • Full Stack Architect</span>
+            <span>Welcome to my portfolio</span>
           </motion.div>
 
           <AnimatedText
-            text="I Engineer Scalable Systems & AI Products That Handle Real-World Load"
+            text="Hi, I'm Akash Deep Verma. A Full Stack .NET & AI Engineer."
             el="h1"
             className="text-5xl sm:text-6xl lg:text-6xl font-semibold tracking-tighter mb-6 text-gradient leading-[1.1]"
           />
@@ -36,7 +36,7 @@ export function HeroSection() {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="text-lg sm:text-xl text-[var(--muted)] font-light tracking-tight max-w-xl mb-10"
           >
-            3.5+ years building distributed systems, real-time architectures, and AI SaaS platforms that scale seamlessly.
+            3.5+ years of experience developing robust .NET backends, real-time web applications, and AI SaaS platforms that scale seamlessly.
           </motion.p>
 
           <motion.div

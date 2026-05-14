@@ -10,7 +10,7 @@ const projects = [
     title: "Distributed Email Platform",
     tagline: "Gmail-like Scalable Email Service",
     problem: "Handling high-throughput email delivery and real-time syncing across distributed nodes.",
-    solution: "Architected an event-driven system utilizing RabbitMQ for message queuing and SignalR for real-time client updates.",
+    solution: "Engineered an event-driven system utilizing RabbitMQ for message queuing and SignalR for real-time client updates.",
     impact: "Achieved 99.9% uptime and reduced email processing latency by 40%.",
     tech: ["ASP.NET Core", "RabbitMQ", "SignalR", "PostgreSQL", "React"],
     link: "#"
@@ -37,7 +37,7 @@ const projects = [
     title: "Samajkalyan System",
     tagline: "Government Welfare Portal",
     problem: "Legacy systems caused massive delays in welfare distribution and tracking.",
-    solution: "Modernized the entire stack using Clean Architecture principles, ensuring robust security and role-based access.",
+    solution: "Modernized the entire stack using Clean Engineering principles, ensuring robust security and role-based access.",
     impact: "Reduced processing times by 35% and digitized over 1M+ records.",
     tech: ["C#", ".NET 8", "PostgreSQL", "React", "Tailwind"],
     link: "#"
@@ -56,7 +56,7 @@ export function ProjectsSection() {
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 text-[var(--foreground)]">Featured Products</h2>
           <p className="text-[var(--muted)] font-light max-w-2xl mx-auto text-lg">
-            I build products, not just features. Here are some of the most impactful systems I've architected and delivered.
+            I build products, not just features. Here are some of the most impactful systems I've engineered and delivered.
           </p>
         </motion.div>
 
@@ -132,7 +132,7 @@ export function ProjectsSection() {
                         View Details
                       </Button>
                       <Button variant="outline" size="sm" className="w-full sm:w-auto text-xs">
-                        Architecture
+                        System Design
                       </Button>
                     </div>
                   </div>

@@ -3,11 +3,11 @@ import { CheckCircle2, TrendingUp } from "lucide-react"
 
 const experiences = [
   {
-    role: "Full Stack Engineer",
+    role: "Full Stack .NET & AI Engineer",
     company: "Current Company",
     period: "2022 - Present",
     achievements: [
-      "Architected event-driven systems using RabbitMQ and Hangfire, improving background job processing reliability.",
+      "Engineered event-driven systems using RabbitMQ and Hangfire, improving background job processing reliability.",
       "Optimized API performance by 35% through robust caching strategies and database query tuning.",
       "Spearheaded the integration of AI capabilities including RAG pipelines with LangChain and Vector DBs.",
       "Implemented Controller → Service → Repository patterns for highly maintainable codebase."

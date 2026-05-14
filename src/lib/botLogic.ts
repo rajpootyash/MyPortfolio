@@ -27,7 +27,7 @@ export async function generateBotResponse(query: string): Promise<string> {
 
   // Intent: About
   if (lowerQuery.match(/(about yourself|who are you|tell me about you)/)) {
-    return "I'm Akash Deep Verma, a Full Stack Engineer with 3.5+ years of experience based in Lucknow, India. I specialize in building scalable distributed systems, real-time architectures, and AI SaaS platforms. My core focus is on bridging the gap between robust backends (.NET/PostgreSQL) and cutting-edge AI features.";
+    return "I'm Akash Deep Verma, a Full Stack .NET & AI Engineer with 3.5+ years of experience based in Lucknow, India. I specialize in building scalable distributed systems, real-time architectures, and AI SaaS platforms. My core focus is on bridging the gap between robust backends (.NET/PostgreSQL) and cutting-edge AI features.";
   }
 
   // Intent: Education
@@ -37,12 +37,12 @@ export async function generateBotResponse(query: string): Promise<string> {
 
   // Intent: Experience
   if (lowerQuery.match(/(experience|work|worked|job|company|role)/)) {
-    return "Akash has been working as a Full Stack Engineer at Technosys Services Pvt. Ltd. since August 2022. During this time, he has built scalable REST APIs using ASP.NET Core, implemented event-driven architectures with RabbitMQ, and driven massive performance gains (up to 40% DB optimization).";
+    return "Akash has been working as a Full Stack .NET & AI Engineer at Technosys Services Pvt. Ltd. since August 2022. During this time, he has built scalable REST APIs using ASP.NET Core, implemented event-driven architectures with RabbitMQ, and driven massive performance gains (up to 40% DB optimization).";
   }
 
   // Intent: Projects
   if (lowerQuery.match(/(project|built|portfolio|work on)/)) {
-    return "Akash has architected several massive systems. Key highlights include:\n• **KnowledgeMesh AI**: An AI SaaS platform using RAG and Vector DBs.\n• **Distributed Email Platform**: A Gmail-like system handling async processing via RabbitMQ.\n• **Workforce System**: A government-scale tracking system for the Kumbh Authority handling thousands of concurrent users.\nWant to hear more about a specific one?";
+    return "Akash has engineered several massive systems. Key highlights include:\n• **KnowledgeMesh AI**: An AI SaaS platform using RAG and Vector DBs.\n• **Distributed Email Platform**: A Gmail-like system handling async processing via RabbitMQ.\n• **Workforce System**: A government-scale tracking system for the Kumbh Authority handling thousands of concurrent users.\nWant to hear more about a specific one?";
   }
 
   // Intent: Architecture
@@ -67,7 +67,7 @@ export async function generateBotResponse(query: string): Promise<string> {
 
   // Intent: Journey
   if (lowerQuery.match(/(journey|start|begin)/)) {
-    return "His journey started with a B.Tech in IT (2018-2022). From there, he joined Technosys Services as a Full Stack Engineer, diving deep into ASP.NET Core and scalable databases. Over the last 3.5 years, he evolved from building standard web apps to architecting distributed event-driven systems and modern AI SaaS platforms.";
+    return "His journey started with a B.Tech in IT (2018-2022). From there, he joined Technosys Services as a Full Stack .NET & AI Engineer, diving deep into ASP.NET Core and scalable databases. Over the last 3.5 years, he evolved from building standard web apps to engineering distributed event-driven systems and modern AI SaaS platforms.";
   }
 
   // Default Fallback

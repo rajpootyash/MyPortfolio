@@ -4,11 +4,11 @@ import { Database, Server, Shield } from "lucide-react"
 const reasons = [
   {
     title: "Systems That Don't Fail",
-    desc: "I architect solutions designed to handle real-world scale, massive traffic spikes, and edge cases gracefully without downtime.",
+    desc: "I engineer solutions designed to handle real-world scale, massive traffic spikes, and edge cases gracefully without downtime.",
     icon: <Database className="w-6 h-6 text-emerald-500" />
   },
   {
-    title: "Architecture Over Features",
+    title: "Engineering Over Features",
     desc: "Writing code is easy. Designing a distributed system that developers can maintain and scale for years is where I excel.",
     icon: <Server className="w-6 h-6 text-blue-500" />
   },

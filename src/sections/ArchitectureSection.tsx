@@ -4,7 +4,7 @@ import { Database, Server, Network } from "lucide-react"
 const architectures = [
   {
     title: "Distributed Email System",
-    description: "Event-driven architecture for real-time delivery and high-throughput processing.",
+    description: "Event-driven engineering for real-time delivery and high-throughput processing.",
     flow: [
       { step: "API Gateway", icon: <Network size={16} />, desc: "Rate limiting & auth" },
       { step: "RabbitMQ", icon: <Server size={16} />, desc: "Message queuing" },
@@ -43,7 +43,7 @@ export function ArchitectureSection() {
         >
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4 text-[var(--foreground)]">How I Design Scalable Systems</h2>
           <p className="text-[var(--muted)] font-light max-w-2xl mx-auto text-lg">
-            A glimpse into the architectural patterns I use to build resilient, high-performance applications.
+            A glimpse into the engineering patterns I use to build resilient, high-performance applications.
           </p>
         </motion.div>
 
